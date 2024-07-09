@@ -1,0 +1,15 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block register %}
+    <div class="text-center">
+        <video autoplay="true" id="register-video-element"></video>
+    </div>
+
+    <div id="register-img-element"></div>
+
+    <div class="text-center mt-3">
+        <button class="btn btn-primary" id="register-capture-btn">take photo</button>
+        <button class="btn btn-info" id="register-reload-btn">reload</button>
+    </div>
+{% endblock register %}
